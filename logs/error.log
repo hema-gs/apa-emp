@@ -1,0 +1,148 @@
+2018-11-25 14:55:54 Error: Fatal Error (4): syntax error, unexpected 'n' (T_STRING) in [C:\xampp\htdocs\hema\employee\src\Model\Table\EmployeesTable.php, line 76]
+Request URL: /employees/edit/1
+Referer URL: http://localhost/hema/employee/employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 14:55:54 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'n' (T_STRING) in C:\xampp\htdocs\hema\employee\src\Model\Table\EmployeesTable.php on line 76
+Request URL: /employees/edit/1
+Referer URL: http://localhost/hema/employee/employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-11-25 14:55:57 Error: Fatal Error (4): syntax error, unexpected 'n' (T_STRING) in [C:\xampp\htdocs\hema\employee\src\Model\Table\EmployeesTable.php, line 76]
+Request URL: /employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 14:55:57 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'n' (T_STRING) in C:\xampp\htdocs\hema\employee\src\Model\Table\EmployeesTable.php on line 76
+Request URL: /employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-11-25 14:57:06 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\hema\employee\src\Model\Table\EmployeesTable.php, line 76]
+Request URL: /employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 14:57:06 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ',' in C:\xampp\htdocs\hema\employee\src\Model\Table\EmployeesTable.php on line 76
+Request URL: /employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 76)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-11-25 17:36:16 Error: Fatal Error (4): syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp, line 21]
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 17:36:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp on line 21
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-11-25 17:36:17 Error: Fatal Error (4): syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp, line 21]
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 17:36:17 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp on line 21
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-11-25 17:36:19 Error: Fatal Error (4): syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp, line 21]
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 17:36:19 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp on line 21
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-11-25 17:36:53 Error: Fatal Error (4): syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in [C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp, line 21]
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 17:36:53 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ''type'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp on line 21
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-11-25 17:37:35 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp, line 21]
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 229
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 110
+[main] - [internal], line ??
+
+
+
+2018-11-25 17:37:35 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\hema\employee\src\Template\Employees\edit.ctp on line 21
+Request URL: /employees/edit/3
+Referer URL: http://localhost/hema/employee/employees
+Stack Trace:
+#0 C:\xampp\htdocs\hema\employee\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(110): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

@@ -55,17 +55,17 @@ class EmployeesTable extends Table
 			
 		$validator
             ->scalar('employee_id')
-            ->maxLength('employee_id', 4)
+            ->maxLength('employee_id', 7)
             ->requirePresence('employee_id', 'create')
             ->notEmpty('employee_id');
 
         $validator
             ->email('email')
-            ->requirePresence('email', 'create')
+            //->requirePresence('email', 'create')
             ->notEmpty('email');
 
         $validator
-            ->integer('phone')
+            /* ->integer('phone') */
 			->maxLength('phone', 10)
             //->requirePresence('phone', 'create')
             ->notEmpty('phone');

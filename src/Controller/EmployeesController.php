@@ -54,9 +54,9 @@ class EmployeesController extends AppController
             $employee = $this->Employees->patchEntity($employee, $this->request->getData());
             if ($this->Employees->save($employee)) {
                 $this->Flash->success(__('The employee has been saved.'));
+				return $this->redirect(['action' => 'index']);
             }
             $this->Flash->error(__('The employee could not be saved. Please, try again.'));
-			return $this->redirect(['action' => 'index']);
         }
         $this->set(compact('employee'));
     }
@@ -75,7 +75,6 @@ class EmployeesController extends AppController
         ]);
 		$employee['dob'] = date('Y-m-d', strtotime($employee->dob));
         if ($this->request->is(['patch', 'post', 'put'])) {
-
             $employee = $this->Employees->patchEntity($employee, $this->request->getData());
             if ($this->Employees->save($employee)) {
                 $this->Flash->success(__('The employee has been saved.'));

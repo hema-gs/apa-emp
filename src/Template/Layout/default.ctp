@@ -72,7 +72,13 @@ $cakeDescription = 'Employees';
     </footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
 	<script>
-    
+		function validateForm() {
+			var phonenum = document.getElementById("phonenum").value;
+			if(phonenum.length < 10) {
+					$('#errphone').css("color", "red");
+					return false;
+			}
+		}
 	  $(document).ready(function(){
 		
 		$('#modellink').click(function(e) {
